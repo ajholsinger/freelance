@@ -1,0 +1,48 @@
+/* TOP SECTION CONTROLS 1 */
+
+.section1 {
+  height: 100vh;
+}
+
+.header {
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.background {
+	height: 100vh;
+	z-index: -1;
+  width: 100%;
+  position: absolute;
+}
+
+.greyH {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  margin: 5px;
+}
+
+.twitter, .insta, .github, .facebook, .linkedin {
+  height: 20px;
+  width: 20px;
+  float: right;
+  margin: 5px;
+}
+/*
+.twitter {
+  height: 20px;
+  width: 20px;
+  float: right;
+}
+
+.insta {
+  height: 20px;
+  width: 20px;
+  float: right;
+}
