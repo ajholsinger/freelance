@@ -29,7 +29,7 @@
     outline: none;
     border: 0;
     background: transparent;
-    padding: 15px;
+    padding: 10px;
     z-index: 10000;
     transition: .4s;
     color: #e1e1e1;
@@ -60,7 +60,7 @@
   font-size: 15px;
   margin-top: 10px;
   text-align: center;
-  padding: 5px;
+  padding-top: 10px;
   display: block;
 }
 
