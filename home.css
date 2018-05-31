@@ -12,7 +12,7 @@
 .header {
   z-index: 1;
   position: absolute;
-  width: 100%;;
+  width: 100%;
 }
 
 .left {
@@ -53,13 +53,15 @@
 
 .sidebar ul li {
   margin: 0 auto;
-  margin-top: 20px;
   color: black;
   text-decoration:none;
   list-style-type: none;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
-  padding: 10px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 5px;
+  display: block;
 }
 
 .sidebar ul li:hover {
@@ -111,6 +113,7 @@
   text-align: center;
   z-index: 2;
   font-family: 'Raleway', sans-serif;
+  height: 93vh;
 }
 
 .h3soft {
@@ -138,6 +141,19 @@
 	width: 30%;
   text-align: center;
   opacity: .6;
+}
+
+.social-media {
+  position: absolute;
+  right:0;
+  bottom: 0;
+  margin: 10px;
+  vertical-align: inherit;
+}
+
+.social-image {
+  width: 15px;
+  height: 15px;
 }
 
 /* SECTION 2 CONTROLS */
@@ -200,6 +216,18 @@
   }
 
   .background {
+    height: 50vh;
+  }
+
+  .bodyRow {
+    height: 50vh;
+  }
+
+  .social-media {
+    bottom:35px;
+  }
+
+  .section1 {
     height: 50vh;
   }
 }
