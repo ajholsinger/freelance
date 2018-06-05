@@ -29,6 +29,29 @@ a:hover {
   height: auto;
 }
 
+.header-left {
+  text-align: left;
+}
+
+.header-nav {
+  margin: 10px;
+  margin-top: 17px;
+  color: #e1e1e1;
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header-nav:hover {
+  opacity: .5;
+  color: lightgrey;
+}
+                                    /*SIDE BAR CONTROLS*/
+
+.icon-button, .sidebar {
+  display: none;
+}
 .icon-button {
     position: absolute;
     appearance: none;
@@ -113,6 +136,10 @@ a:hover {
   margin-top: 10px;
 }
 
+.greyH:hover {
+  opacity: .5;
+}
+
 .bodyRow {
   text-align: center;
   z-index: 2;
@@ -124,7 +151,7 @@ a:hover {
   padding: 0 auto;
   font-size: 15px;
   color: #e1e1e1;
-  margin-top: 140px;
+  margin-top: 170px;
 }
 
 .h3heading {
@@ -134,7 +161,7 @@ a:hover {
 	width: 30%;
 	display: block;
 	text-align: center;
-  margin-top: 150px;
+  margin-top: 180px;
   border: 1px #e1e1e1 solid;
 }
 
@@ -150,7 +177,7 @@ a:hover {
 .social-media {
   position: absolute;
   right: 10px;
-  bottom: 0;
+  bottom: 10px;
   vertical-align: inherit;
   width: auto;
 }
@@ -165,13 +192,14 @@ a:hover {
 .social-image:hover {
   width: 30px;
   height: 30px;
+  opacity: .5;
   z-index: 20;
 }
 
 /* SECTION 2 CONTROLS */
 
 .section2 {
-  background-color: #d9d9d9;
+  background-color: #fcfcfc;
   height: 50vh;
 }
 
@@ -181,6 +209,11 @@ a:hover {
   color: black;
   opacity: .2;
   margin: 30px;
+}
+
+.front-end-img {
+  width: 20px;
+  height: 20px;
 }
 
 
@@ -232,11 +265,20 @@ a:hover {
   }
 
   .social-media {
-    bottom:35px;
+    bottom: 35px;
+    margin: 0 auto;
   }
 
   .section1 {
     height: 50vh;
+  }
+
+  .header-left {
+    display: none;
+  }
+
+  .icon-button, .sidebar {
+    display: block;
   }
 }
 
