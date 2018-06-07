@@ -1,6 +1,6 @@
 * {
 	margin: 0 auto;
-	padding: 0;
+  padding: 0;
 }
 
 a {
@@ -131,8 +131,8 @@ a:hover {
 }
 
 .greyH {
-  height: 20px;
-  width: 20px;
+  height: 40px;
+  width: 40px;
   margin-top: 10px;
 }
 
@@ -206,7 +206,7 @@ a:hover {
   position: absolute;
   z-index: 2;
   height: 75vh;
-  width: 100%;
+  width: 100vw;
 }
 
 .front-end-img {
@@ -247,7 +247,7 @@ a:hover {
   position: absolute;
   left: 40%;
   margin-bottom: 10px;
-  border: .5px#f9f9f9 solid;
+  border: 1px white solid;
 }
 
 .back-end {
@@ -271,7 +271,7 @@ a:hover {
   position: absolute;
   right: 15%;
   margin-bottom: 10px;
-  border: .5px#f9f9f9 solid;
+  border: 1px white solid;
 }
 
 .front-end-header {
@@ -290,9 +290,23 @@ a:hover {
   margin: 10px;
 }
 
+.node {
+  width: auto;
+  margin: 5px;
+}
+
+.sql {
+  width: 100%;
+  margin: 5px;
+}
+
 .design-skills {
   text-align: center;
   margin: 10px;
+}
+
+.frameworks {
+  margin-top: 30px;
 }
 
 .frameworks-header {
@@ -353,7 +367,7 @@ a:hover {
 
   .h3heading {
     width: 75%;
-    margin-top: 250px;
+    margin-top: 270px;
   }
 
   .h3dev {
@@ -382,6 +396,51 @@ a:hover {
 
   .icon-button, .sidebar {
     display: block;
+  }
+
+  .section2 {
+    height: 100vh;
+  }
+
+  .exp-background {
+    height: 100vh;
+  }
+
+  .skills {
+    text-align: center;
+    margin: 0 auto;
+    height: 100vh;
+  }
+
+  .front-end {
+    width: 75%;
+    height: 35%;
+    margin: 0 auto;
+    margin-top: 250px;
+    left: 55px;
+    text-align: center;
+  }
+
+  .front-end-skills {
+    display: inline-block;
+  }
+
+  .back-end{
+    height: 32%;
+    width: 75%;
+    margin-top: 0px;
+    margin: 0 auto;
+    right: 0px;
+    left: 7px;
+  }
+
+  .back-end-skills {
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  .design {
+    display: none;
   }
 }
 
